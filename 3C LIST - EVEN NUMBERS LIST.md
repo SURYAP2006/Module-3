@@ -1,13 +1,7 @@
 # Exp.No:3c
 ## LIST - EVEN NUMBERS LIST
-
----
-
 ### AIM  
 To write a Python function that accepts a number **N** and creates a list containing all even numbers up to **N**.
-
----
-
 ### ALGORITHM
 
 1. Begin the program.  
@@ -18,14 +12,23 @@ To write a Python function that accepts a number **N** and creates a list contai
    - If it is even, append `i` to the list `l`.  
 5. Print the final list `l` containing all the even numbers.  
 6. Terminate the program.
-
----
-
 ### PROGRAM
 
 ```
+Reg.No: 212223060280
+Name: SURYA P
+
+def createlist(n):
+    l=[]
+    for i in range(12, n):
+        if i%2==0:
+            l.append(i)
+    print("List =",l)
+    print("Sum of the list", sum(l))
 ```
 
 ### OUTPUT
+<img width="683" height="217" alt="3c" src="https://github.com/user-attachments/assets/27342811-6efb-4ec3-86d6-8ad7590c5e7c" />
 
 ### RESULT
+Thus a Python function that accepts a number N and creates a list containing all even numbers up to N was executed and implemented successfully.
